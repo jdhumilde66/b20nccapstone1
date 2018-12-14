@@ -1,0 +1,471 @@
+/* Desktop */
+
+@media (min-width: 992px) {
+
+#landing-page {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #0000cc;
+	background-color: transparent;
+	animation: fadeIn 1s;
+}
+
+.button {
+	margin-top: 100px;
+	margin-right: 100px;
+	float: right;
+	box-shadow: 15px 17px 40px -15px; /* End of landing page */
+}
+
+#main-container {
+	animation: fadeIn 1s;
+	font-family: 'Montserrat', sans-serif;
+	color: #0000cc;
+}
+
+.about-box {
+	background-color: #007B3E;
+	height: 670px;
+	padding-top: 240px;
+    padding-right: 55px;
+}
+
+.who-box {
+	background-color: #ff1a1a;	
+	height: 670px;
+	padding-top: 200px;
+    padding-right: 55px;
+}
+
+.work-box {
+	background-color: orange;
+	height: 670px;
+	padding-top: 225px;
+    padding-right: 55px;
+}
+
+.contact-box {
+	background-color: pink;
+	height: 670px;
+	padding-top: 290px;
+    padding-right: 55px;
+}
+
+/* column paddings */
+
+#about{
+	padding: 0px;
+}
+
+#who {
+	padding: 0px;
+}
+
+#work {
+	padding: 0px;
+}
+
+#contact {
+	padding: 0px;
+}
+
+/* text style */
+
+.about {
+	transform: rotate(270deg);
+	transform-origin: 80% 80%;
+	font-size: 130px;
+}
+
+.who {
+	transform: rotate(270deg);
+	transform-origin: 80% 80%;
+	font-size: 120px;
+}
+
+.work {
+	transform: rotate(270deg);
+	transform-origin: 80% 80%;
+	font-size: 120px;
+}
+
+.contact {
+	transform: rotate(270deg);
+	transform-origin: 80% 80%;
+	font-size: 110px;
+}
+
+a:hover, a:active {
+	font-size: 110%;
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+
+.modal-title {
+	color: grey;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.anjo {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-bottom: 50px;
+	margin-right: 20px;
+}
+
+.issay {
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin-left: 20px;
+}
+
+.write-up-issay {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.write-up-anjo {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title-anjo,
+.title-issay {
+	color: #0000cc;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.modal-footer {
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.form-group {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.about-content {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+picture {
+	position: relative;
+	left: 200px;
+}
+
+}
+
+@media (max-width: 576px) {
+
+#main-container {
+	animation: fadeIn 1s;
+	font-family: 'Montserrat', sans-serif;
+	color: #0000cc;
+}
+
+.about-box {
+	width: 100%;
+	background-color: #007B3E;
+	/* padding-top: 240px;
+    padding-right: 55px; */
+}
+
+.who-box {
+	background-color: #ff1a1a;
+
+	/* padding-top: 200px;
+    padding-right: 55px; */
+}
+
+.work-box {
+	background-color: orange;
+	/* padding-top: 225px;
+    padding-right: 55px; */
+}
+
+.contact-box {
+	background-color: pink;
+	/* padding-top: 290px;
+    padding-right: 55px; */
+}
+
+/* column paddings */
+
+#about{
+
+	width: 100%;
+	padding: 0px;
+}
+
+#who {
+
+	width: 100%;
+	padding: 0px;
+}
+
+#work {
+
+	width: 100%;
+	padding: 0px;
+}
+
+#contact {
+
+	width: 100%;
+	padding: 0px;
+}
+
+
+/* text style */
+
+.about {
+	font-size: 100px;
+}
+
+.who {
+
+	font-size: 100px;
+}
+
+.work {
+	font-size: 100px;
+}
+
+.contact {
+	font-size: 100px;
+}
+
+a:hover, a:active {
+	font-size: 110%;
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+
+.modal-title {
+	color: grey;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.anjo {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-bottom: 50px;
+	margin-right: 20px;
+}
+
+.issay {
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin-left: 20px;
+}
+
+.write-up-issay {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.write-up-anjo {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title-anjo,
+.title-issay {
+	color: #0000cc;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.modal-footer {
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.form-group {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.about-content {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+picture {
+	position: relative;
+	left: 75px !important;
+}
+
+} /* End of  Mobile */
+
+@media (max-width: 768px) {
+
+#main-container {
+	animation: fadeIn 1s;
+	font-family: 'Montserrat', sans-serif;
+	color: #0000cc;
+}
+
+.about-box {
+	height: 25vh;
+	background-color: #007B3E;
+
+	/* padding-top: 240px;
+    padding-right: 55px; */
+}
+
+.who-box {
+	height: 25vh;
+	background-color: #ff1a1a;	
+	
+	/* padding-top: 200px;
+    padding-right: 55px; */
+}
+
+.work-box {
+	height: 25vh;
+	background-color: orange;
+	
+	/* padding-top: 225px;
+    padding-right: 55px; */
+}
+
+.contact-box {
+	height: 25vh;
+	background-color: pink;
+	
+	/* padding-top: 290px;
+    padding-right: 55px; */
+}
+
+/* column paddings */
+
+#about{
+	height: 25vh;
+	padding: 0px;
+}
+
+#who {
+	height: 25vh;
+	padding: 0px;
+}
+
+#work {
+	height: 25vh;
+	padding: 0px;
+}
+
+#contact {
+	height: 25vh;
+	padding: 0px;
+}
+
+
+/* text style */
+
+.about {
+	
+	font-size: 100px;
+}
+
+.who {
+	
+	font-size: 120px;
+}
+
+.work {
+	
+	font-size: 120px;
+}
+
+.contact {
+	
+	font-size: 110px;
+}
+
+a:hover, a:active {
+	font-size: 110%;
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+
+.modal-title {
+	color: grey;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.anjo {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-bottom: 50px;
+	margin-right: 20px;
+}
+
+.issay {
+	width: 50%;
+	height: 50%;
+	float: right;
+	margin-left: 20px;
+}
+
+.write-up-issay {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+.write-up-anjo {
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title-anjo,
+.title-issay {
+	color: #0000cc;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.modal-footer {
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.form-group {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.about-content {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+picture {
+	position: relative;
+	left: 50px;
+}
+
+} /* End of Tablet */
+
